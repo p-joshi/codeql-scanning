@@ -76,10 +76,10 @@ jobs:
         sed -i 's@__TARGET_DIR__@'"$TARGET_DIR"'@' codeql-config.yml
 
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@v1
+      uses: github/codeql-action/init@v2
       with:
         config-file: codeql-config.yml
         languages: javascript
 
     - name: Perform CodeQL analysis
-      uses: github/codeql-action/analyze@v1
+      uses: github/codeql-action/analyze@v2
