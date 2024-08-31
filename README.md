@@ -5,6 +5,8 @@ If you have a large repository containing various independent projects (a
 reduced by splitting the scanning work into various parallel jobs which will
 individually analyze only a subset of the files in the repository.
 
+
+
 This repository contains an example of a GitHub Actions
 [workflow](.github/workflows/code-scanning.yml) which does precisely
 that. The strategy implemented here works however only for the interpreted
