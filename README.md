@@ -3,7 +3,7 @@
 If you have a large repository containing various independent projects (a
 "monorepo"), the time taken to scan your code with CodeQL can be significantly
 reduced by splitting the scanning work into various parallel jobs which will
-individually analyze only a subset of the files in the repository.
+individually analyze only a subset of the files in the repositor
 
 
 
