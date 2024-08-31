@@ -22,6 +22,7 @@ this repository (e.g. `project-4`) requires no changes to the workflow file as a
 dedicated code scanning job will be automatically generated for it when the
 workflow is executed.
 
+
 This strategy is possible because GitHub Actions workflows accept JSON input to
 define a job matrix, and  the JSON contents can be generated during the
 workflow's execution. In other words, the job matrix can be defined dynamically.
